@@ -1,0 +1,25 @@
+{
+  "name": "valve_core_multi_layer_demo",
+  "version": "1.0",
+  "unit_params": {
+    "outer_diameter_mm": 80.0,
+    "middle_radius_mm": 15.0,
+    "inner_radius_mm": 13.5,
+    "base_thickness_mm":3.0,
+    "wall_height_mm":30.0,
+    "side_thickness_mm":1.5
+  },
+  "array_params": {
+    "layer_count": 3,
+    "sector_count": 6
+  },
+  "custom_clearance": {
+    "delete_bodies": [
+      "L1_S1_inner",
+      "L1_S2_side",
+      "L2_S1_base",
+      "L3_S1_inner",
+      "L3_S2_side"
+    ]
+  }
+}
